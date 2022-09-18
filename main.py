@@ -88,4 +88,4 @@ class MyReqHandler(SimpleHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    run_server('0.0.0.0', HandlerClass=MyReqHandler)
+    run_server('127.0.0.1', port=8000, HandlerClass=MyReqHandler)
